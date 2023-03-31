@@ -56,7 +56,7 @@ section {
 }
 
 #sec1 {
-  background: url(/assets/aluminum.jpg) no-repeat fixed center;
+  background: url(assets/aluminum.jpg) no-repeat fixed center;
 }
 #sec1 .content {
   background-color: white;
@@ -87,7 +87,7 @@ section {
 }
 
 #sec3 {
-  background: url(/assets/wok_cooking.jpg) no-repeat fixed center;
+  background: url(assets/wok_cooking.jpg) no-repeat fixed center;
 }
 #sec3 .content {
   background-color: white;
@@ -130,7 +130,7 @@ section {
 }
 
 #sec5 {
-  background: url(/assets/desk.jpg) no-repeat fixed center;
+  background: url(assets/desk.jpg) no-repeat fixed center;
   background-size: 100vw;
 }
 #sec5 .content {
