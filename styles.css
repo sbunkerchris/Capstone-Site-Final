@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+}
+
+section {
+  min-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.arrowWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrowWrap .arrow {
+  background: #343b43;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 15px;
+  transition: 0.4s ease;
+}
+.arrowWrap .arrow:hover {
+  box-shadow: 0px 0px 2px 2px grey;
+}
+.arrowWrap .arrow div {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-top: 8px solid white;
+  border-left: 8px solid white;
+  transform: rotate(45deg);
+  left: 12.75px;
+  bottom: 10.75px;
+}
+.arrowWrap .right {
+  transform: rotate(90deg);
+}
+.arrowWrap .left {
+  transform: rotate(-90deg);
+}
+
+#sec1 {
+  background: url(/assets/aluminum.jpg) no-repeat fixed center;
+}
+#sec1 .content {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px 0px #313131;
+}
+#sec1 .content img {
+  max-height: 200px;
+  border: solid 10px white;
+  border-radius: 150px;
+  box-shadow: 2px 2px 5px 0px #313131;
+}
+
+#sec2 .content {
+  border-radius: 3px;
+}
+#sec2 .content h2 span {
+  font-size: 0.4em;
+  font-weight: 100;
+  color: #a7b1bb;
+}
+#sec2 .content .phrase {
+  font-style: italic;
+  font-weight: 100;
+}
+#sec2 .content p {
+  text-align: justify;
+}
+
+#sec3 {
+  background: url(/assets/wok_cooking.jpg) no-repeat fixed center;
+}
+#sec3 .content {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px 0px #313131;
+}
+#sec3 .content h2 img {
+  max-height: 80px;
+}
+#sec3 .content h2 span {
+  font-size: 0.4em;
+  font-weight: 100;
+  color: #a7b1bb;
+}
+#sec3 .content .phrase {
+  font-style: italic;
+  font-weight: 100;
+}
+#sec3 .content p {
+  text-align: justify;
+}
+
+#sec4 .content {
+  border-radius: 3px;
+}
+#sec4 .content h2 img {
+  max-height: 80px;
+}
+#sec4 .content h2 span {
+  font-size: 0.4em;
+  font-weight: 100;
+  color: #a7b1bb;
+}
+#sec4 .content .phrase {
+  font-style: italic;
+  font-weight: 100;
+}
+#sec4 .content p {
+  text-align: justify;
+}
+
+#sec5 {
+  background: url(/assets/desk.jpg) no-repeat fixed center;
+  background-size: 100vw;
+}
+#sec5 .content {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px 0px #313131;
+}
+#sec5 .content h2 img {
+  max-height: 80px;
+}
+#sec5 .content h2 span {
+  font-size: 0.4em;
+  font-weight: 100;
+  color: #a7b1bb;
+}
+#sec5 .content .phrase {
+  font-style: italic;
+  font-weight: 100;
+}
+#sec5 .content p {
+  text-align: justify;
+}
+#sec5 .content .skills {
+  font-weight: 100;
+  text-align: center;
+}
+
+.content {
+  max-width: 800px;
+  padding: 40px;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 3em;
+}
+
+.content p {
+  font-size: 1.3em;
+  line-height: 1em;
+}
+
+@media (max-width: 786px) {
+  .bodyContainer {
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}/*# sourceMappingURL=styles.css.map */

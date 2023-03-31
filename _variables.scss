@@ -1,0 +1,19 @@
+//colors
+$light-gray: #a7b1bb;
+$dark-gray: #343b43;
+$off-White:#ebebeb;
+$blue:#2b58de;
+$shadow: 2px 2px 5px 0px #313131;
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@200;300;400;600;700&display=swap');
+$titles:'Roboto Slab', serif;
+$body: 'Montserrat', sans-serif;
+
+// break points
+$breakpoint-phone: 640px;
+$breakpoint-tablet: 786px;
+$breakpoint-desktop: 1024px;
+
+//other
+$border-rad: 3px;
