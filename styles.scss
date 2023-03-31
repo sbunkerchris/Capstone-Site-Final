@@ -17,6 +17,9 @@ body{
     overflow-y: hidden;
     // section sticky
     scroll-snap-type: x mandatory;
+    @media (max-width: $breakpoint-tablet){
+        overflow: scroll;
+    }
     
    
 }
@@ -37,6 +40,7 @@ section {
     //  padding-left: 8vw;
     //  padding-right: 8vw;
      scroll-snap-align: center;
+    
 }
 
 .arrowWrap {
@@ -70,6 +74,9 @@ section {
     .left {
         transform: rotate(-90deg);
     }
+    @media (max-width: $breakpoint-tablet){
+        display: none;
+    }
 }
 
 #sec1{
@@ -84,16 +91,33 @@ section {
             border-radius: 150px;
             box-shadow: $shadow;
         }
+        @media (max-width: $breakpoint-tablet){
+            border-radius: none;
+            box-shadow: none;
+         }
     }
+    @media (max-width: $breakpoint-tablet){
+        background: none;
+     }
 }
 
 #sec2{
     & .content {
         border-radius: $border-rad;
+        & h2 img {
+            @media (max-width: $breakpoint-tablet){
+                max-height: 60px;
+                }
+        }
         & h2 span {
             font-size: 0.4em;
             font-weight: 100;
             color: $light-gray;
+            & img {
+            @media (max-width: $breakpoint-tablet){
+                max-height: 60px;
+             }
+            }
         }
         .phrase {
             font-style: italic;
@@ -126,7 +150,14 @@ section {
         p {
             text-align: justify;
         }
+        @media (max-width: $breakpoint-tablet){
+            border-radius: none;
+            box-shadow: none;
+         }
     }
+    @media (max-width: $breakpoint-tablet){
+        background: none;
+     }
 }
 
 #sec4{
@@ -176,8 +207,15 @@ section {
             font-weight: 100;
             text-align: center;
         }
+        @media (max-width: $breakpoint-tablet){
+            border-radius: none;
+            box-shadow: none;
+         }
         
     }
+    @media (max-width: $breakpoint-tablet){
+        background: none;
+     }
 }
 
 
@@ -189,6 +227,9 @@ section {
 
 .content h2 {
     font-size: 3em;
+    @media (max-width: $breakpoint-tablet){
+        font-size: 2em;
+    }
 }
 
 .content p {
